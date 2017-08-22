@@ -1,0 +1,34 @@
+---
+---
+
+// add bootstrap variable settings here
+
+@import 'jef.min.css';
+
+
+// add more css stuff here
+
+body {
+	padding-top: 20px;
+	padding-bottom: 70px;
+}
+
+.content {
+	padding: 20px 15px;
+}
+
+.kachel-heading {
+	a {
+		color: black;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+.kachel-bild {
+	padding: 0px;
+}
+
+.nav-home-btn {
+	margin-left: 15px;
+}

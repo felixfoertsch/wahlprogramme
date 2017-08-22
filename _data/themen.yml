@@ -1,0 +1,26 @@
+- id: aussenpolitik
+  titel: Außenpolitik
+  bild: aussenpolitik.jpg
+  
+
+- id: wirtschaft_und_waehrung
+  titel: Wirtschaft und Währung
+  bild: waehrung.jpg
+  
+
+- id: klima_und_umwelt
+  titel: Klima und Umwelt
+  bild: klima.jpg
+
+
+- id: verbraucherschutz_und_landwirtschaft
+  titel: Verbraucherschutz und Landwirtschaft
+  bild: landwirtschaft.jpg
+
+- id: sozialpolitik
+  titel: Sozialpolitik
+  bild: sozialpolitik.jpg
+
+- id: verkehr
+  titel: Verkehr
+  bild: verkehr.jpg
