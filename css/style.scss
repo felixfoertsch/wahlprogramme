@@ -4,6 +4,7 @@
 // add bootstrap variable settings here
 
 @import 'jef.min.css';
+// @import '_bootstrap.scss';
 
 
 // add more css stuff here
@@ -11,24 +12,60 @@
 body {
 	padding-top: 20px;
 	padding-bottom: 70px;
+	background-color: #F5F5F5;
+}
+
+h2 {
+	margin-top: 50px;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+p {
+	font-size: 16px;
 }
 
 .content {
 	padding: 20px 15px;
 }
 
-.kachel-heading {
-	a {
-		color: black;
-	}
+.kachel {
 	a:hover {
 		text-decoration: none;
 	}
-}
-.kachel-bild {
-	padding: 0px;
+	.kachel-bild {
+		height: 200px;
+		padding: 0px;
+		background-position: center;
+		.kachel-overlay {
+			position: relative;
+			height: 200px;
+			padding: 0px;
+			background-image: 
+			linear-gradient(
+				rgba(0, 204, 102, 0.8),
+				rgba(0, 0, 0, 0.5)
+				);
+			.kachel-text {
+				position: absolute;
+				width: 100%;
+				top: 50%;
+				transform: translateY(-50%);
+				text-align: center;
+				font-size: 30px;
+				font-weight: bold;
+				color: #F5F5F5;
+			}
+		}
+	}
 }
 
 .nav-home-btn {
 	margin-left: 15px;
+}
+
+.parteilogo {
+	height: 35px;
+	width: auto;
 }

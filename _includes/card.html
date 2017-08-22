@@ -1,11 +1,9 @@
-<div class="panel panel-default">
-	<div class="panel-heading kachel-heading">
-		<a href="{{ thema.id }}.html"><h3 class="panel-title">{{ thema.titel }}</h3></a>
-	</div>
-	<div class="panel-body kachel-bild">
-		<a href="{{ thema.id }}.html"><img src="images/{{ thema.bild }}" class="img-responsive" alt="{{ thema.titel }}"></a>
-	</div>
-	<div class="panel-footer">
-		<a href="{{ thema.id }}.html" type="button" class="btn btn-primary">Mehr lesen</a>
-	</div>
+<div class="thumbnail kachel">
+	<a href="{{ thema.id }}.html">
+		<div class="panel-body kachel-bild" style="background-image: url('images/{{ thema.bild }}')">
+			<div class="kachel-overlay">
+				<div class="kachel-text">{{ thema.titel }}</div>
+			</div>
+		</div>
+	</a>
 </div>
