@@ -3,15 +3,15 @@
 @gray-base: rgb(0, 0, 0);
 @gray-darker: lighten(#000, 13.5%);
 @gray-dark: lighten(#000, 20%);
-@gray: #717073;
-@gray-light: #919195;
+@gray: rgb(113, 112, 115);
+@gray-light: rgb(145, 145, 149);
 @gray-lighter: lighten(#000, 93.5%);
-@brand-primary: #0c6;
+@brand-primary: rgb(0, 204, 102);
 @brand-success: rgb(0, 204, 102);
 @brand-info: rgb(117, 202, 235);
 @brand-warning: rgb(255, 133, 27);
 @brand-danger: rgb(255, 65, 54);
-@body-bg: #f5f5f5;
+@body-bg: rgb(245, 245, 245);
 @text-color: @gray;
 @link-color: @brand-primary;
 @link-hover-color: @link-color;
@@ -20,7 +20,7 @@
 @font-family-serif: Georgia, "Times New Roman", Times, serif;
 @font-family-monospace: Menlo, Monaco, Consolas, "Courier New", monospace;
 @font-family-base: @font-family-sans-serif;
-@font-size-base: 14px;
+@font-size-base: 15px;
 @font-size-large: ceil((@font-size-base * 1.25));
 @font-size-small: ceil((@font-size-base * 0.85));
 @font-size-h1: floor((@font-size-base * 2.6));
@@ -109,7 +109,7 @@
 @dropdown-divider-bg: @gray-lighter;
 @dropdown-link-color: @gray-light;
 @dropdown-link-hover-color: @gray-dark;
-@dropdown-link-hover-bg: transparent;
+@dropdown-link-hover-bg: @brand-primary;
 @dropdown-link-active-color: @component-active-color;
 @dropdown-link-active-bg: @component-active-bg;
 @dropdown-link-disabled-color: @gray-lighter;
@@ -176,7 +176,7 @@
 @navbar-inverse-link-hover-color: @gray-dark;
 @navbar-inverse-link-hover-bg: transparent;
 @navbar-inverse-link-active-color: @gray-base;
-@navbar-inverse-link-active-bg: transparent;
+@navbar-inverse-link-active-bg: @brand-primary;
 @navbar-inverse-link-disabled-color: @gray-lighter;
 @navbar-inverse-link-disabled-bg: transparent;
 @navbar-inverse-brand-color: @navbar-inverse-link-color;
